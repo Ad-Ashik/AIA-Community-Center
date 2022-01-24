@@ -3,6 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.text-color h5,.text-color p{
+    /* color: red !important; */
+}
 /* space class */
 .aia-space-bottom{
     margin-bottom: 115px !important;
