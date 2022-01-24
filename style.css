@@ -1,3 +1,15 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* space class */
+.aia-space-bottom{
+    margin-bottom: 115px !important;
+}
+.aia-space-top{
+    margin-top: 115px !important;
+}
 /* check style */
 .aia-check{
     background: #EDEBF8;
@@ -63,22 +75,49 @@
 .last-package{
     margin-left: 50px;
 }
-/* 24/7 SUPPORT */
-.support-24 h1{
-    
+/* Frequently Asked Questions */
+.asked-qus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
-
-
-
-
+.asked-width{
+    width: 50%;
+}
+.asked-image img{
+    margin-top: 0 !important;
+}
+/* footer */
+.footer-part{
+    background-color: #0B0D17;
+    padding: 100px;
+}
+.footer-part p{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+.footer-image{
+    width: 150px;
+}
+.get-app h4{
+    color: #D9DBE1;
+}
 /* Responsive */
 @media only screen and (max-width: 800px){
     .our-packages{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+    }
+    .asked-qus{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .asked-width{
+        width: 75%;
+    }
+    .asked-image img{
+        margin-top: 3rem !important;
     }
 }
