@@ -107,7 +107,7 @@ body{
     .our-packages{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
+        justify-items: center;
     }
     .asked-qus{
         display: grid;
@@ -116,8 +116,17 @@ body{
     }
     .asked-width{
         width: 75%;
+        margin: 0 auto;
+    }
+    .asked-image{
+        display: flex;
+        justify-content: center;
     }
     .asked-image img{
         margin-top: 3rem !important;
+    }
+    
+    .footer-part{
+        display: block !important;
     }
 }
